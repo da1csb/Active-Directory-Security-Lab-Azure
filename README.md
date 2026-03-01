@@ -44,7 +44,8 @@ The goal was to understand how user identities are managed at scale, how securit
 - AD DS installation
 - Domain configuration
 
----
+![Server Manager – Domain Controller](screenshots/ServerManager-AD1.png)
+![Active Directory Domain Services – Domain Controller](screenshots/ADDS-AD1.png)
 
 ### 2️ - Organizational Units (OU) Design
 - Created Organizational Units to simulate departments:
