@@ -44,8 +44,11 @@ The goal was to understand how user identities are managed at scale, how securit
 - AD DS installation
 - Domain configuration
 
-![Server Manager – Domain Controller](screenshots/Server Manager - AD 1.png) 
-![Active Directory Domain Services – Domain Controller](screenshots/ADDS-AD1.png)
+![Server Manager – Domain Controller](screenshots/Server-Manager-AD1.png) 
+
+![Active Directory Domain Services – Domain Controller](screenshots/ad-ds-ad1.png)
+
+---
 
 ### 2️ - Organizational Units (OU) Design
 - Created Organizational Units to simulate departments:
@@ -57,6 +60,10 @@ The goal was to understand how user identities are managed at scale, how securit
 📸 Screenshots:
 - OU structure in Active Directory Users and Computers
 
+![Active Directory Organizational Units](screenshots/ad-organizational-units-ad2.png)
+
+![Active Directory Organizational Units](screenshots/ad-users-ad2.png)
+
 ---
 
 ### 3️ - Domain-Joined Client
@@ -67,6 +74,10 @@ The goal was to understand how user identities are managed at scale, how securit
   Screenshots:
 - Domain-joined client
 - Admin login on client machine
+
+![Domain Joined Windows Client](screenshots/Domain-joined-client-AD3.png)
+
+![Domain Joined Windows Client](screenshots/admin-client-comp-ad2.png)
 
 ---
 
@@ -82,6 +93,12 @@ Examples:
 - User Configuration GPO
 - Computer Configuration GPO
 - GPO enforcement confirmation
+
+![GPO User Configuration](screenshots/Applied-GPO-User-AD4.png)
+
+![GPO User Configuration](screenshots/Applied-GPO-Comp-AD4.png)
+
+![GPO User Configuration](screenshots/GPO-Admin-AD4.png)
 
 ---
 
@@ -99,6 +116,9 @@ To simulate an enterprise-scale environment, PowerShell was used to automate use
   Screenshot:
 - PowerShell execution of bulk user provisioning
 
+![PowerShell Script](scripts/Powershell-script.png)
+
+![PowerShell Script](scripts/Bulk-user-creation.png)
 ---
 
 ## Security & SOC Relevance
