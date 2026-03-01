@@ -1,13 +1,13 @@
 # Active Directory Security Lab (Azure)
 
-## 📌 Project Overview
+## Project Overview
 This project simulates a small enterprise Active Directory environment deployed in Microsoft Azure. The lab focuses on identity and access management (IAM), Group Policy enforcement, and PowerShell automation to demonstrate real-world Windows domain administration and SOC-relevant security controls.
 
 The goal was to understand how user identities are managed at scale, how security baselines are enforced, and how misconfigurations or access issues can impact enterprise environments.
 
 ---
 
-## 🏗️ Lab Architecture
+## Lab Architecture
 - Microsoft Azure Virtual Network
 - Windows Server 2022 (Domain Controller)
   - Active Directory Domain Services (AD DS)
@@ -20,7 +20,7 @@ The goal was to understand how user identities are managed at scale, how securit
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 - Microsoft Azure (Virtual Machines, Networking)
 - Windows Server 2022
 - Windows 10
@@ -31,22 +31,22 @@ The goal was to understand how user identities are managed at scale, how securit
 
 ---
 
-## ⚙️ Implementation Summary
+## Implementation Summary
 
-### 1️⃣ Domain Setup
+### 1 - Domain Setup
 - Installed and configured Active Directory Domain Services on Windows Server 2022
 - Promoted the server to a Domain Controller
 - Created a custom domain (`SecEng.local`)
 - Verified AD DS and DNS functionality
 
-📸 Screenshots:
+  Screenshots:
 - Server Manager
 - AD DS installation
 - Domain configuration
 
 ---
 
-### 2️⃣ Organizational Units (OU) Design
+### 2️ - Organizational Units (OU) Design
 - Created Organizational Units to simulate departments:
   - IT
   - Sales
@@ -58,18 +58,18 @@ The goal was to understand how user identities are managed at scale, how securit
 
 ---
 
-### 3️⃣ Domain-Joined Client
+### 3️ - Domain-Joined Client
 - Deployed a Windows 10 virtual machine
 - Successfully joined the client to the domain
 - Verified domain authentication using both admin and standard user accounts
 
-📸 Screenshots:
+  Screenshots:
 - Domain-joined client
 - Admin login on client machine
 
 ---
 
-### 4️⃣ Group Policy Enforcement (Security Baselines)
+### 4️ - Group Policy Enforcement (Security Baselines)
 Group Policy Objects (GPOs) were configured to enforce the principle of least privilege and simulate enterprise security controls.
 
 Examples:
@@ -77,14 +77,14 @@ Examples:
 - Enforced user and computer-level policies
 - Applied policies through OU-based targeting
 
-📸 Screenshots:
+  Screenshots:
 - User Configuration GPO
 - Computer Configuration GPO
 - GPO enforcement confirmation
 
 ---
 
-### 5️⃣ PowerShell Automation – Bulk User Provisioning
+### 5️ - PowerShell Automation – Bulk User Provisioning
 To simulate an enterprise-scale environment, PowerShell was used to automate user creation.
 
 - Created 1,000 domain users
@@ -92,15 +92,15 @@ To simulate an enterprise-scale environment, PowerShell was used to automate use
 - Enabled accounts with predefined credentials
 - Demonstrated automation over manual identity management
 
-📁 Script:
+  Script:
 - `scripts/bulk-user-creation.ps1`
 
-📸 Screenshot:
+  Screenshot:
 - PowerShell execution of bulk user provisioning
 
 ---
 
-## 🔐 Security & SOC Relevance
+## Security & SOC Relevance
 This lab directly supports SOC Analyst and Security Engineering fundamentals by demonstrating:
 
 - Identity & Access Management (IAM)
@@ -114,7 +114,7 @@ These skills are critical for monitoring, investigating, and responding to secur
 
 ---
 
-## ✅ Key Takeaways
+## Key Takeaways
 - Active Directory is central to enterprise security operations
 - Misconfigured GPOs or permissions can lead to privilege escalation
 - Automation is essential for managing identities at scale
@@ -122,7 +122,7 @@ These skills are critical for monitoring, investigating, and responding to secur
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 - Add architecture diagram
 - Integrate security event logging
 - Simulate authentication failures for detection scenarios
