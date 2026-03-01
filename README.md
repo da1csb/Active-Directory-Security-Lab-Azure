@@ -71,7 +71,7 @@ The goal was to understand how user identities are managed at scale, how securit
 - Successfully joined the client to the domain
 - Verified domain authentication using both admin and standard user accounts
 
-  Screenshots:
+**Screenshots**:
 - Domain-joined client
 - Admin login on client machine
 
@@ -89,7 +89,7 @@ Examples:
 - Enforced user and computer-level policies
 - Applied policies through OU-based targeting
 
-  Screenshots:
+**Screenshots**:
 - User Configuration GPO
 - Computer Configuration GPO
 - GPO enforcement confirmation
@@ -110,10 +110,10 @@ To simulate an enterprise-scale environment, PowerShell was used to automate use
 - Enabled accounts with predefined credentials
 - Demonstrated automation over manual identity management
 
-  Script:
+**Script**:
 - `scripts/bulk-user-creation.ps1`
 
-  Screenshot:
+**Screenshot**:
 - PowerShell execution of bulk user provisioning
 
 ![PowerShell Script](scripts/Powershell-script.png)
