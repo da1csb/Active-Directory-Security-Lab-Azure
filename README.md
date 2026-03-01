@@ -39,7 +39,7 @@ The goal was to understand how user identities are managed at scale, how securit
 - Created a custom domain (`SecEng.local`)
 - Verified AD DS and DNS functionality
 
-  Screenshots:
+**Screenshots**:
 - Server Manager
 - AD DS installation
 - Domain configuration
@@ -57,7 +57,7 @@ The goal was to understand how user identities are managed at scale, how securit
   - Admin
 - Used OUs to apply security policies and manage users at scale
 
-📸 Screenshots:
+**Screenshots**:
 - OU structure in Active Directory Users and Computers
 
 ![Active Directory Organizational Units](screenshots/ad-organizational-units-ad2.png)
