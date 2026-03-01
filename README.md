@@ -16,8 +16,9 @@ The goal was to understand how user identities are managed at scale, how securit
   - Joined to the domain
 - Organizational Units (OUs) for role separation
 
-> Architecture diagram will be added in a future update.
+> Architecture diagram.
 
+![Architecture Diagram](architecture/ad-lab-architecture.png)
 ---
 
 ## Tools & Technologies
